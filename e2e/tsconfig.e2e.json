@@ -1,0 +1,28 @@
+//{
+//  "extends": "../tsconfig.json",
+//  "compilerOptions": {
+//    "outDir": "../out-tsc/e2e",
+//    "baseUrl": "./",
+//    "module": "es6",
+//    "target": "es5",
+//    "types": [
+//      "jasmine",
+//      "node"
+//    ]
+//  }
+//}
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../dist/out-tsc-e2e",
+    "module": "es6",
+    "target": "es6",
+    "types":[
+      "jasmine",
+      "node"
+    ],
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  }
+}
