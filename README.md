@@ -20,4 +20,3 @@ protractor protractor.conf.js --browser=firefox
 * Configure the suite in the protractor conf.js
 * Implement the commonly used protractor functions implementations
 
-## Contributors are welcome to improve this project further
