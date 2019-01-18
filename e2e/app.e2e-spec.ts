@@ -3,6 +3,8 @@ var using = require('jasmine-data-provider');
 import DataService from "../src/keywordmodel/service/DataService";
 import KeywordExecutor from "../src/keywordmodel/scriptexecutor/executor/KeywordExecutor";
 
+var originalTimeout;
+
 beforeAll(function () {
   browser.driver
     .manage()
